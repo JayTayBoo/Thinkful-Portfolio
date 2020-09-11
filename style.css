@@ -138,6 +138,11 @@ a:active  { color: pink;  }
     margin-right:auto
 }
 
+.smolLogo {
+    display:inline-block; 
+    text-align:right;
+}
+
 /* desktop custimizations */
 @media all and (min-width: 600px) {
     header {
