@@ -46,7 +46,6 @@ hr {
 ul {
     /* I  really don't like the look of the dots and numbers in lists so I removed them */
     list-style: none;
-    padding: 0 25%;
 }
 
 ol {
@@ -107,11 +106,15 @@ a:active  { color: pink;  }
 
 /* classes for aditional sizing and margins */
 .smallText {
-      font-size: 50%;
+      font-size: 69%;
 }
 
 .mediumText{
-    font-size: 75%;
+    font-size: 85%;
+}
+
+.thiccText {
+    font-size: 175%;
 }
 
 .thicc {
