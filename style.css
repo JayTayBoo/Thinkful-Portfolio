@@ -1,4 +1,17 @@
-header, body {
+header {
+    background-color: #faf5efe5;
+    background-image: url("images/dot-grid.png"); /* Image background from www.subtlepatterns.com */
+    background-size: 200px;
+    color: #000000;
+    text-align: center;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
     background-color: #faf5efe5;
     background-image: url("images/dot-grid.png"); /* Image background from www.subtlepatterns.com */
     background-size: 200px;
@@ -46,6 +59,7 @@ hr {
 ul {
     /* I  really don't like the look of the dots and numbers in lists so I removed them */
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 ol {
@@ -83,6 +97,11 @@ a:active  { color: pink;  }
     -webkit-text-fill-color: transparent;
 }
 
+.border {
+    border-radius: 5px;
+    border-width: 1px;
+}
+
 /* different classes I played around with to get the image how I wanted :) */
 .topImage {
     background-image: url("images/seattleSkylineFixed.jpg");
@@ -93,6 +112,7 @@ a:active  { color: pink;  }
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
+    margin-top: 130px;
 }  
  
 .topImageText {
@@ -123,6 +143,9 @@ a:active  { color: pink;  }
 .extraThicc {
     margin-top: 50px;
 }
+.sloppyToppy {
+    padding-top: 100px;
+}
 
 .group{
     display: flex;
@@ -152,16 +175,14 @@ a:active  { color: pink;  }
     header {
       display: flex;
       justify-content: space-between;
-      padding: 0 20px;
+      padding-left: 20px;
     }
 
     header nav {
         margin-top: 14px;
+        margin-right: 20px;
     }
 
-    header nav ul li:last-child a {
-        margin-right: 0;
-    }
     section {
         padding: 0 25%;
     }
@@ -169,5 +190,11 @@ a:active  { color: pink;  }
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+    .topImage {
+        margin-top: 80px;
+    }
+    .sloppyToppy {
+        padding-top: 50px;
     }
 }
