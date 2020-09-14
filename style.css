@@ -105,7 +105,7 @@ a:active  { color: pink;  }
 /* different classes I played around with to get the image how I wanted :) */
 .topImage {
     background-image: url("images/seattleSkylineFixed.jpg");
-    background-color: #f5f5f5;
+    background-color: #2e2e2e;
     height: 500px;
     background-position: center;
     background-size: cover;
